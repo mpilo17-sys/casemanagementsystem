@@ -1,5 +1,5 @@
 Flask==2.3.2
-Werkzeug==2.3.7  # Compatible with Flask 2.3.2 and Flask-Login
 Flask-WTF==1.0.1
-Flask-Login==0.6.2  # Requires Werkzeug <3.0 (use Werkzeug 2.3.x)
+Flask-Login==0.6.2
+Werkzeug==2.0.3  # Force this version (last with `url_decode` in `werkzeug.urls`)
 WTForms==3.0.1
